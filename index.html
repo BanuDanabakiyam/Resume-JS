@@ -6,13 +6,34 @@
         <link rel="stylesheet" href="stye.css">
     </head>
     <body>
-        <center>
-        <h1 id="Heading" class="head"></h1>
-        <div>
+        <div class="head">
+        <h1 id="Heading"></h1>
+    </div>
+    
+        <div class="container">
+            <table>
+                <tr>
+                    <td><label id="name" class="label-text"> </label></td>
+                    <td class="nameText"><input type="text" name="name" size="25"/></td>
+                </tr>
+                <tr>
+                    <td><label id="email"class="label-text"> </label></td>
+                    <td class="nameText"><input type="text" name="email" size="25"/></td>
+                </tr>
+                <tr>
+                    <td><label id="phone" class="label-text"> </label></td>
+                    <td class="nameText"><input type="text" name="phone" size="25"/></td>
+                </tr>
+                <tr>
+                    <td><label class="label-text"></label><input type="file" name="file"></td>
+                </tr>
+                
+            </table>
             
         </div>
+   
 
         <script src="./App.js"></script>
-    </center>
+    
     </body>
 </html>
